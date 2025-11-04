@@ -64,6 +64,11 @@
   margin-top: 50px;
   text-align: center;
 }
+.profile-card {
+  border: 2px solid black;
+  width: 30%;
+  margin: 0 auto;
+}
 
 .hidden {
   display: none;
@@ -82,4 +87,24 @@
 
 .symbols div {
   margin-top: 10px;
+}
+
+.photos {
+  text-align: center;
+  margin-top: 20px;
+}
+.photo-click {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding-bottom: 40px;
+  gap: 30px;
+}
+.photo-click button {
+  border: none;
+  background-color: white;
+}
+
+.change-img {
+  border-radius: 3px;
 }

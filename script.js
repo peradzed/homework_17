@@ -35,3 +35,17 @@ textarea.addEventListener("input", function () {
   const textLength = textarea.value.length;
   counter.textContent = `სიმბოლოების რაოდენობა ${textLength}`;
 });
+
+const mainPhoto = document.querySelector("#mainImage");
+
+btn1.addEventListener("click", function () {
+  mainPhoto.src = "img/img.jpg";
+});
+
+btn2.addEventListener("click", function () {
+  mainPhoto.src = "img/img2.jpg";
+});
+
+btn3.addEventListener("click", function () {
+  mainPhoto.src = "img/pic1.jpg";
+});
